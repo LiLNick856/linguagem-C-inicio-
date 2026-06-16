@@ -31,6 +31,22 @@ Cada arquivo aborda um pilar essencial, como entrada e saída de dados, estrutur
 * **O que faz:** Uma versão limpa e direta da tabuada do número 5, focada puramente na execução e performance do laço de repetição sem textos adicionais.
 * **Conceito chave:** Automatização de cálculos matemáticos simples usando a estrutura de repetição `for`.
 
+### 6. Jogo da Forca (`6.Forca.cpp`)
+* **O que faz:** Um jogo interativo de adivinhação de palavras para o terminal. O usuário define uma palavra secreta e o jogador tenta adivinhá-la letra por letra, contando com um sistema de até 10 vidas e uma máscara visual que oculta as letras não descobertas.
+* **Conceito chave:** Manipulação e varredura de vetores de caracteres (*strings*), controle de estados e laços condicionais encadeados (`while` e `if`).
+
+### 7. Sistema de Caixa (`7.Sistema de caixa.cpp`)
+* **O que faz:** Simula o terminal de atendimento de uma lanchonete através de um menu interativo, permitindo que o usuário adicione múltiplos itens (Hambúrguer, Pizza ou Refrigerante) e acumule o valor no carrinho até decidir finalizar o pedido.
+* **Conceito chave:** Implementação de menus interativos utilizando a estrutura de repetição `do-while` associada a condicionais para acumulação de valores aritméticos.
+
+### 8. Sistema de Mercado com Desconto (`8.Sistema de mercado.cpp`)
+* **O que faz:** Gerencia uma lista de compras de supermercado com base no código e na quantidade de cada produto. Ao encerrar a operação, o sistema calcula o subtotal e aplica automaticamente um desconto de 5% caso o valor final ultrapasse R$ 100,00.
+* **Conceito chave:** Estrutura de laço infinito controlado por interrupção (`break`), combinada com seleção múltipla via `switch-case` e aplicação de lógica percentual condicional.
+
+### 9. Sistema de Notas e Rendimento Escolar (`9.Sistema de Notas.cpp`)
+* **O que faz:** Solicita o número total de estudantes de uma turma e calcula individualmente a média aritmética de duas notas de cada um deles, classificando de forma automática a situação de cada aluno em **Aprovado**, **Recuperação** ou **Reprovado**.
+* **Conceito chave:** Laço de repetição controlado por contador (`for`) integrado com estruturas condicionais encadeadas para análise e classificação de dados numéricos.
+
 ---
 
 ## Ferramentas Necessárias para Rodar
